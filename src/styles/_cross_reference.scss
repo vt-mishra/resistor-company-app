@@ -1,0 +1,635 @@
+@import "_custom.scss";
+* {
+  font-family: "Roboto";
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.css-c6u9lv-option {
+  background-color: rgb(21, 107, 168, 0.04) !important;
+  color: #156ba8 !important;
+}
+
+.css-1uefjmj-option {
+  color: #52575c !important;
+}
+.css-tzexq5-control{
+  background-color: transparent !important;
+}
+.css-1nmdiq5-menu {
+  width: 99% !important;
+  margin-left: 2px;
+}
+.cross-reference-page {
+  height: 100%;
+
+  .top-container,
+  .bottom-container {
+    min-height: 55px;
+    height: calc((100vh - 513px) / 2);
+  }
+
+  .select-placeholder-text {
+    @include crossFont;
+  }
+
+  .css-1dimb5e-singleValue {
+    @include crossFont;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    width: 100%;
+
+    .col,
+    .col-auto {
+      padding: 0;
+    }
+
+    .Col-1 {
+      min-width: 85px;
+    }
+
+    .head-box {
+      display: flex;
+
+      .back-box {
+        width: 78px;
+        height: 44.03px;
+        background-color: var(--backBg-color);
+        border-radius: 0 8px 8px 0;
+
+        img {
+          margin: auto;
+          display: grid;
+          place-items: center;
+          margin-top: 11px;
+        }
+      }
+
+      .heading-box {
+        width: 305px;
+        height: 40px;
+
+        h2 {
+          font-weight: 400;
+          font-size: 40px;
+          color: #156ba8;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .content-box {
+      width: 923px;
+
+      .row-B1 {
+        .head-text {
+          font-weight: 400 !important;
+          font-size: 40px !important;
+          line-height: 40px;
+          color: var(--text-color);
+          margin-left: 70px;
+        }
+
+        margin-bottom: 63px;
+      }
+
+      .top-box {
+        width: 923px;
+        height: 205px;
+        border-bottom: 1px solid #bdbdbd;
+        display: flex;
+        flex-wrap: wrap;
+        color:var(--bg-color) !important;
+
+        .select-box-A {
+          width: 379px;
+          height: 155px;
+          margin-right: 31px;
+          padding: 0;
+
+          Select {
+            width: 100%;
+            border: none;
+            padding: 0 0 0 5px;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.1px;
+            color: #156ba8;
+          }
+          .select-card {
+            @include crossSelectCard;
+            
+
+            label {
+              margin: 12px 0 0 44px;
+            }
+          }
+        }
+
+        .select-box-B {
+          width: 379px;
+          height: 155px;
+          padding: 0;
+          margin-bottom: 95px;
+
+          Select {
+            width: 100%;
+            border: none;
+            padding: 0 0 0 5px;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.1px;
+            color: #156ba8;
+          }
+          .select-card {
+            @include crossSelectCard;
+
+            label {
+              margin: 12px 0 0 44px;
+            }
+          }
+        }
+      }
+
+      .bottom-box {
+        width: 923px;
+        padding: 0;
+
+        .startBtn {
+          display: flex;
+          align-items: center;
+        }
+        .endBtn {
+          display: flex;
+          align-items: center;
+        }
+
+        .box-B {
+          width: 377px;
+          height: 159px;
+          background-color: #156ba8;
+          border-radius: 13px;
+          padding: 29px 30.45px 30px 32px;
+          margin-left: 36px;
+          margin-right: 33px;
+
+          .card-A {
+            width: 315px;
+
+            .text-box {
+              width: 226px;
+              height: 100px;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 22px;
+              letter-spacing: 0.1px;
+              color: #fefefe;
+              margin-right: 54px;
+            }
+            span {
+              font-weight: 700;
+            }
+          }
+
+          .pdf1 {
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        .box-C {
+          width: 377px;
+          height: 159px;
+          background-color: var(--backBg-color);
+          border-radius: 13px;
+          padding: 29px 30.45px 30px 32px;
+          margin-right: 36px;
+
+          .card-A {
+            width: 315px;
+
+            .text-box {
+              height: 100px;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 22px;
+              letter-spacing: 0.1px;
+              color:var(--text-color);
+              margin-right: 54px;
+            }
+            span {
+              font-weight: 700;
+            }
+          }
+
+          .pdf1 {
+            display: flex;
+            align-items: center;
+          }
+        }
+        ::-webkit-scrollbar {
+          width: 2px;
+          border: 1px solid #ffffff;
+        }
+
+        ::-webkit-scrollbar-track {
+          background: #ffffff;
+        }
+
+        ::-webkit-scrollbar-thumb {
+          height: 161px;
+          background: #dddddd;
+          border-radius: calc(20rem / 16);
+          outline: 2px solid #dddddd;
+        }
+      }
+    }
+  }
+}
+.css-1gxfbx6-control {
+  background-color: transparent !important;
+}
+@media (max-width: 1365px) {
+  .cross-reference-page {
+    .top-container,
+    .bottom-container {
+      display: none;
+    }
+
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+      overflow-x: hidden;
+    }
+
+    .col,
+    .col-auto {
+      padding: 0;
+    }
+
+    .Col-1 {
+      min-width: 10px !important;
+    }
+
+    .head-box {
+      .back-box {
+        display: none;
+      }
+    }
+
+    .content-box {
+      width: 411px !important;
+      margin-bottom: 0px;
+      margin-top: 37px !important;
+
+      .row-B1 {
+        display: none !important;
+      }
+
+      .top-box {
+        width: 100% !important;
+        height: auto !important;
+        border-bottom: none !important;
+
+        .select-box-A {
+          width: 313px !important;
+          margin-right: 0px !important;
+          border-bottom: 1px solid #e8e8e8 !important;
+
+          Select {
+            @include crossSelect;
+            height: 100px !important;
+          }
+
+          .select-card {
+            @include crossSelectCard;
+
+            label {
+              margin: 12px 0 0 44px;
+            }
+          }
+        }
+
+        .select-box-B {
+          width: 313px !important;
+          padding: 0px;
+          border-bottom: 1px solid #e8e8e8 !important;
+          margin-bottom: 66px !important;
+
+          Select {
+            @include crossSelect;
+          }
+
+          .select-card {
+            @include crossSelectCard;
+
+            label {
+              margin: 12px 0 0 44px;
+            }
+          }
+        }
+
+        .menuOpened {
+          height: 200px !important;
+        }
+
+        .menuClosed {
+          height: 100px !important;
+        }
+      }
+
+      .bottom-box {
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 458px);
+        align-items: center;
+        width: 100% !important;
+        margin-top: 18px !important;
+        margin-bottom: 0 !important;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+        .startBtn {
+          display: none !important;
+        }
+
+        .box-B {
+          @include crossBox;
+          background-color: #156ba8;
+          margin-bottom: 15px !important;
+          padding: 29px 30.45px 30px 32px;
+
+          .card-A {
+            .text-box {
+              @include crossTextBox;
+              line-height: 22px;
+              color: #fefefe;
+              span {
+                font-weight: 700;
+              }
+            }
+          }
+
+          .pdf1 {
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        .box-C {
+          @include crossBox;
+          background-color: var(--backBg-color);
+          padding: 36px 36px 108px 40px !important;
+
+          .card-A {
+            .text-box {
+              @include crossTextBox;
+              line-height: 25px;
+              color: #156ba8;
+
+              span {
+                font-weight: 700;
+              }
+            }
+          }
+
+          .pdf1 {
+            display: flex;
+            align-items: center;
+          }
+        }
+
+        .endBtn {
+          display: none !important;
+        }
+      }
+    }
+    ::-webkit-scrollbar {
+      width: 2px;
+      border: 1px solid #ffffff;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #ffffff;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      height: 161px;
+      background: #dddddd;
+      border-radius: calc(20rem / 16);
+      outline: 2px solid #dddddd;
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .cross-reference-page {
+    .Col-1{
+      display: none;
+    }
+    .content-box {
+      width: 320px !important;
+      margin-bottom: 0px;
+      margin-top: 0 !important;
+
+      .top-box {
+        padding-top: 20px !important;
+
+        .select-box-A {
+          width: 100% !important;
+          height: 100px !important;
+          margin-bottom: 19px !important;
+
+          .select-card {
+            width: 280px !important;
+          }
+        }
+
+        .select-box-B {
+          width: 100% !important;
+          height: 100px !important;
+
+          .select-card {
+            width: 280px !important;
+          }
+        }
+
+        .menuClosed {
+          width: 280px !important;
+        }
+      }
+
+      .bottom-box {
+        width: 300px !important;
+
+        .box-B {
+          width: 100% !important;
+
+          .card-A {
+            width: 100% !important;
+            justify-content: space-between;
+          }
+
+          .pdf1 {
+            img {
+              height: 35px;
+            }
+          }
+        }
+
+        .box-C {
+          width: 300px !important;
+          background-color: var(--backBg-color) ;
+
+          .pdf1 {
+            img {
+              height: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1365px) {
+  $factorH: 100/828;
+  $factorW: 100/411;
+  .cross-reference-page {
+    .select-placeholder-text {
+      color: #156ba8;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 18px;
+    }
+
+    .Col-1 {
+      min-width: 0 !important;
+    }
+
+    .content-box {
+      width: calc(411vw * $factorW) !important;
+      margin-bottom: calc(0vh * $factorH);
+      margin-top: calc(37vh * $factorH) !important;
+
+      .top-box {
+        .select-box-A {
+          width: calc(313vw * $factorW) !important;
+
+          Select {
+            padding-left: calc(5vw * $factorW);
+            font-size: calc(25rem / 16);
+            line-height: calc(18vh * $factorH);
+          }
+
+          .select-card {
+            width: 100% !important;
+            height: calc(42vh * $factorH);
+            font-size: calc(14rem / 16);
+            line-height: calc(18vh * $factorH);
+
+            label {
+              margin-top: calc(12vh * $factorH);
+              margin-left: calc(44vw * $factorW);
+            }
+          }
+        }
+
+        .select-box-B {
+          width: calc(313vw * $factorW) !important;
+          margin-bottom: 0 !important;
+
+          Select {
+            padding-left: calc(5vw * $factorW);
+            font-size: calc(25rem / 16);
+            line-height: calc(18vh * $factorH);
+          }
+
+          .select-card {
+            width: 100% !important;
+            height: calc(42vh * $factorH);
+            font-size: calc(14rem / 16);
+            line-height: calc(18vh * $factorH);
+
+            label {
+              margin-top: calc(12vh * $factorH);
+              margin-left: calc(44vw * $factorW);
+            }
+          }
+        }
+
+        .menuOpened {
+          height: calc(200vh * $factorH) !important;
+        }
+
+        .menuClosed {
+          height: calc(100vh * $factorH) !important;
+        }
+      }
+
+      .bottom-box {
+        height: calc(100vh - calc(520vh * $factorH)) !important;
+        padding-top: calc(66vh * $factorH) !important;
+        margin-top: calc(18vh * $factorH) !important;
+
+        .box-B {
+          width: calc(313vw * $factorW) !important;
+          height: calc(160vh * $factorH) !important;
+          border-radius: calc(13rem / 16) !important;
+          padding: calc(36vh * $factorH) calc(40vw * $factorW) !important;
+          margin: 0 !important;
+          margin-bottom: calc(15vh * $factorH) !important;
+
+          .card-A {
+            display: flex;
+            justify-content: space-between;
+            width: 100% !important;
+            .text-box {
+              width: calc(171vw * $factorW) !important;
+              height: calc(88vh * $factorH) !important;
+              font-size: calc(14rem / 16) !important;
+              line-height: calc(22vh * $factorH) !important;
+              margin-right: calc(31vw * $factorW) !important;
+            }
+          }
+        }
+
+        .box-C {
+          width: calc(313vw * $factorW) !important;
+          height: calc(160vh * $factorH) !important;
+          border-radius: calc(13rem / 16) !important;
+          padding: calc(36vh * $factorH) calc(40vw * $factorW) !important;
+          margin-right: calc(0vw * $factorW) !important;
+
+          .card-A {
+            display: flex;
+            justify-content: space-between;
+            width: 100% !important;
+            .text-box {
+              width: calc(171vw * $factorW) !important;
+              height: calc(88vh * $factorH) !important;
+              font-size: calc(14rem / 16) !important;
+              line-height: calc(25vh * $factorH) !important;
+              margin-right: calc(31vw * $factorW) !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

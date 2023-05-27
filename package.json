@@ -1,0 +1,61 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "4.8.0",
+    "@capacitor/core": "^4.7.0",
+    "@capacitor/local-notifications": "^4.1.5",
+    "@capacitor/push-notifications": "^4.1.2",
+    "@capacitor/status-bar": "^5.0.0",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "env-cmd": "^10.1.0",
+    "firebase": "^9.21.0",
+    "i18next": "^22.4.13",
+    "mixin-flavors": "^0.4.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-bootstrap-submenu": "^3.0.3",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-multilevel-dropdown": "^4.0.0",
+    "react-router-dom": "^6.9.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.2",
+    "sass": "^1.59.3",
+    "umi": "^3.5.20",
+    "umi-request": "^1.4.0",
+    "umi-serve": "^1.9.10",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cors": "cd C:\\Program Files\\Google\\Chrome\\Application && chrome.exe --disable-web-security --disable-gpu --user-data-dir=~/chromeTemp && react-scripts start",
+    "mob": "ionic capacitor run android -l --external --watch --open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^4.8.0"
+  }
+}

@@ -1,0 +1,33 @@
+/* Importing variable  SCSS file. */
+@import url("./_variable.scss");
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+/* Importing custom classes SCSS file. */
+@import url("./_custom.scss");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, "Helvetica Neue", Roboto, Noto, Arial, sans-serif;
+}
+
+:root {
+  --bg-color: #ffffff;
+  --bgBox-color: #ffffff;
+  --backBg-color: #d9ebff;
+  --tab-color: #f3f3f3;
+  --box-color: #f6f9fc;
+  --border-color: #bdbdbd;
+  --text-color: #156ba8;
+  --notText-color: #212121;
+  --proText-color: #4f4f4f;
+  --input-color: hsl(0,0%,20%);
+  --btn-color:#bdbdbd;
+  --box-shadow:0px 4px 20px #d9eaff;
+  --orderText-color: #4f4f4f;
+  --setting-color: rgba(217, 235, 255, 0.2);
+  --icon-color:red;
+  --icon-color:red;
+}

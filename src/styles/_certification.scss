@@ -1,0 +1,277 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.certification-page {
+  height: 100%;
+  .top-container,
+  .bottom-container {
+    min-height: 55px;
+    height: calc((100vh - 411px) / 2);
+  }
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: auto !important;
+    width: 100%;
+
+    .col,
+    .col-auto {
+      padding: 0;
+    }
+
+    .Col-1 {
+      min-width: 85px;
+    }
+
+    .head-box {
+      display: flex;
+
+      .back-box {
+        width: 78px;
+        height: 44.03px;
+        background-color: var(--backBg-color);
+        border-radius: 0 8px 8px 0;
+
+        img {
+          margin: auto;
+          display: grid;
+          place-items: center;
+          margin-top: 11px;
+        }
+      }
+
+      .heading-box {
+        width: 305px;
+        height: 40px;
+        margin-top: 179px;
+
+        h2 {
+          font-weight: 400;
+          font-size: 40px;
+          color:var(--text-color);
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .content-box {
+      width: 806px;
+      height: 411px;
+      .row-B1 {
+        .head-text {
+          font-weight: 400 !important;
+          font-size: 40px !important;
+          line-height: 40px;
+          color:var(--text-color);
+          margin-bottom: 98px;
+        }
+      }
+
+      .item-box-A {
+        display: block;
+        width: 806px;
+        height: 265px;
+
+        .certification-item {
+          width: 375px;
+          height: 30px;
+          img {
+            margin-right: 8px;
+            margin-bottom: 8px;
+            width: 30px;
+            height: 30px;
+          }
+        }
+
+        .certification-item-border {
+          width: 375px;
+          border-top: 1px solid #bdbdbd;
+          border-bottom: 1px solid #bdbdbd;
+          padding-top: 43px;
+          padding-bottom: 43px;
+          margin-bottom: 48px;
+          margin-top: 41px;
+
+          img {
+            margin-right: 8px;
+            margin-bottom: 8px;
+            width: 30px;
+            height: 30px;
+          }
+        }
+
+        label {
+          font-weight: 500;
+          font-size: 25px;
+          line-height: 119.19%;
+          color:var(--text-color);
+        }
+      }
+      .item-box-B {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 1365px) {
+  .certification-page {
+    .top-container,
+    .bottom-container {
+      display: none;
+    }
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 34px !important;
+      margin: 0 !important;
+      height: calc(100vh - 133px);
+      overflow-y: auto !important;
+      width: 100%;
+      .col,
+      .col-auto {
+        padding: 0;
+      }
+      .Col-1 {
+        min-width: 10px;
+      }
+      .head-box {
+        .back-box {
+          display: none;
+        }
+      }
+      .content-box {
+        height: auto;
+        width: 299px;
+        margin-bottom: 0px;
+        .row-B1 {
+          display: none;
+        }
+        .item-box-B {
+          display: block;
+          width: 299px;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 0px;
+
+          .d-flex {
+            justify-content: center;
+            flex-flow: column;
+
+            .certification-item {
+              width: 299px;
+              height: 105px;
+              border-top: 1px solid #bdbdbd;
+              display: flex;
+              align-items: center;
+              img {
+                width: 17.08px;
+                height: 22.32px;
+                margin-top: 3.5px;
+              }
+            }
+
+            .first-item {
+              border-top: none;
+            }
+            .certification-item-border {
+              width: 299px;
+              height: 105px;
+              display: flex;
+              align-items: center;
+              border-top: 1px solid #bdbdbd;
+              border-bottom: none;
+              padding-top: 0px;
+              padding-bottom: 0px;
+              margin-bottom: 0px;
+              margin-top: 0px;
+
+              img {
+                width: 17.08px;
+                height: 22.32px;
+                margin-top: 3.5px;
+              }
+            }
+            label {
+              margin-top: 5px;
+              margin-left: 13px;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 119.19%;
+              color: var(--text-color);
+            }
+          }
+        }
+        .item-box-A {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  $factorH: 100/828;
+  $factorW: 100/411;
+
+  .certification-page {
+    .top-container,
+    .bottom-container {
+      display: none;
+    }
+    .row {
+      padding-top: calc(34vh * $factorH) !important;
+
+      .Col-1 {
+        min-width: calc(10vw * $factorW);
+      }
+
+      .content-box {
+        width: calc(299vw * $factorW);
+        margin-bottom: calc(0vh * $factorH);
+
+        .item-box-B {
+          width: calc(299vw * $factorW);
+
+          .d-flex {
+            .certification-item {
+              width: calc(299vw * $factorW);
+              height: calc(105vh * $factorH);
+              img {
+                width: calc(17.08vw * $factorW);
+                height: calc(22.32vh * $factorH);
+                margin-top: calc(3.5vh * $factorH);
+              }
+            }
+
+            .certification-item-border {
+              width: calc(299vw * $factorW);
+              height: calc(105vh * $factorH);
+
+              img {
+                width: calc(17.08vw * $factorW);
+                height: calc(22.32vh * $factorH);
+                margin-top: calc(3.5vh * $factorH);
+              }
+            }
+            label {
+              margin-top: calc(5vh * $factorH);
+              margin-left: calc(13vw * $factorW);
+              font-size: 1.125rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

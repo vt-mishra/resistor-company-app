@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "851438534335",
+    "project_id": "react-app-5e2d2",
+    "storage_bucket": "react-app-5e2d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851438534335:android:3d4cdcfb81f2bc4ba0d00a",
+        "android_client_info": {
+          "package_name": "com.s2p.htr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851438534335-d3dclojltmroak5it44ld3p9p5mmbcqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChUU24ESYDVLPdfZMIbmlDc_bABLgfG_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851438534335-d3dclojltmroak5it44ld3p9p5mmbcqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

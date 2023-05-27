@@ -1,0 +1,145 @@
+// Category
+@mixin labelFont {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 119.19%;
+  text-align: center;
+}
+@mixin headFont {
+  font-weight: 400 !important;
+  font-size: 40px !important;
+  color: var(--text-color);
+}
+@mixin textFont {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 119.19%;
+  text-align: center;
+}
+@mixin labelText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 119.19%;
+  text-align: center;
+}
+@mixin sizes {
+  width: 305px !important;
+  margin-bottom: 0px !important;
+  height: auto !important;
+}
+
+// Contact Us
+@mixin fontText {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  text-decoration-line: underline;
+  color: #156ba8;
+}
+
+//Cross Reference
+@mixin crossFont {
+  color:var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@mixin crossSelect {
+  width: 100%;
+  border: none;
+  padding: 0 0 0 5px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1px;
+  color: #156ba8;
+}
+@mixin crossSelectCard {
+  width: 314px;
+  height: 42px;
+  background: var(--box-color);
+  box-shadow: 0px 0px 8px rgba(37, 40, 43, 0.12);
+  border-radius: 8px;
+  color:var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+@mixin crossBox {
+  width: 313px !important;
+  height: 160px !important;
+  border-radius: 13px;
+  margin: 0 !important;
+}
+@mixin crossTextBox {
+  width: 171px !important;
+  height: 88px !important;
+  font-weight: 400;
+  font-size: 14px !important;
+  letter-spacing: 0.1px;
+  margin-right: 31px !important;
+}
+// notification
+@mixin notificationCard {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15), 0px 1px 0.66px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  margin-right: 0px !important;
+}
+@mixin networkImg {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin networkBox {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin textBox {
+  width: 246px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@mixin textKey {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+  text-decoration: underline;
+  &::marker {
+    margin: 0;
+  }
+}
+@mixin textValue {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+@mixin bottomRow {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+// Order 
+@mixin orderBtn{
+  box-shadow: 0px 4px 4px rgba(21, 107, 168, 0.25);
+  width: 106px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}

@@ -1,0 +1,391 @@
+@import "_custom.scss";
+* {
+  font-family: "Roboto";
+  font-style: normal;
+}
+@media (max-width: 1366px) {
+  .notification-page {
+    .row {
+      display: flex;
+      flex-wrap: nowrap;
+      margin-top: 47px;
+      margin-left: 0;
+      width: 100%;
+
+      .col,
+      .col-auto {
+        padding: 0;
+      }
+
+      .Col-1 {
+        min-width: 10px;
+      }
+
+      .head-box {
+        display: none;
+      }
+
+      .content-box {
+        width: 332px;
+        height: 624px;
+        margin-bottom: 47px;
+
+        .main-content {
+          width: 332px;
+          height: 552px;
+          border-bottom: 1px solid #e8e8e8;
+          margin-bottom: 36px;
+          .product-card {
+            width: 332px;
+            height: 96px;
+            margin-bottom: 12px;
+            background: #ffffff;
+            @include notificationCard;
+
+            .network-img {
+              @include networkImg;
+
+              .network-box {
+                background-color: #bdbdbd;
+                @include networkBox;
+
+                img {
+                  width: 14px;
+                  height: 14px;
+                }
+              }
+            }
+            .text-box {
+              @include textBox;
+
+              .text-area {
+                width: 246px;
+                .top-row {
+                  display: flex;
+                  justify-content: space-between;
+
+                  .text-key {
+                    color: #828282;
+                    @include textKey;
+                  }
+                  .text-value {
+                    color: #828282;
+                    @include textValue;
+                  }
+                }
+                .bottom-row {
+                  color: #828282;
+                  @include bottomRow;
+                }
+              }
+            }
+          }
+
+          .active {
+            background:var(--backBg-color);
+            @include notificationCard;
+
+            .network-img {
+              @include networkImg;
+
+              .network-box {
+                background-color: #156ba8;
+                @include networkBox;
+
+                img {
+                  width: 14px;
+                  height: 14px;
+                }
+              }
+            }
+            .text-box {
+              @include textBox;
+
+              .text-area {
+                width: 246px;
+                .top-row {
+                  display: flex;
+                  justify-content: space-between;
+
+                  .text-key {
+                    color: #45464f;
+                    @include textKey;
+                  }
+                  .text-value {
+                    color: #45464f;
+                    @include textValue;
+                  }
+                }
+                .bottom-row {
+                  color:var(--notText-color);
+                  @include bottomRow;
+                }
+              }
+            }
+          }
+        }
+
+        .bottom-box {
+          width: 100%;
+          height: auto;
+
+          .bottom-row-1 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+
+            img {
+              padding: 0;
+              width: 46px;
+              height: 46px;
+            }
+          }
+
+          .bottom-row-2 {
+            .btn-box {
+              display: flex;
+              justify-content: center;
+
+              img {
+                width: 46px;
+                height: 46px;
+                margin-right: 11px;
+              }
+
+              button {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #ffffff;
+              }
+
+              .btn-1 {
+                width: 146px;
+                height: 36px;
+                background: #156ba8;
+                box-shadow: 0px 4px 4px rgba(21, 107, 168, 0.2);
+                border-radius: 18px;
+                border: none;
+              }
+
+              .btn-2 {
+                width: 104px;
+                height: 36px;
+                box-shadow: 0px 4px 4px rgba(21, 107, 168, 0.25);
+                background: #bdbdbd;
+                border-radius: 0px 18px 18px 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width : 1365px) {
+  $factorH: 100/828;
+  $factorW: 100/411;
+  .notification-page {
+    .row {
+      margin-top: calc(47vh * $factorH);
+
+      .Col-1 {
+        min-width: calc(10vw * $factorW);
+      }
+
+      .content-box {
+        width: calc(332vw * $factorW);
+        height: calc(624vh * $factorH);
+
+        .main-content {
+          width: calc(332vw * $factorW);
+          height: calc(552vh * $factorH);
+          margin-bottom: calc(36vh * $factorH);
+          .product-card {
+            width: calc(332vw * $factorW);
+            height: calc(96vh * $factorH);
+            margin-bottom: calc(12vh * $factorH);
+            border-radius: calc(25rem / 16);
+            
+
+            .network-img {
+              width: calc(50vw * $factorW) !important;
+              @include networkImg;
+
+              .network-box {
+                width: calc(22vh * $factorH) !important;
+                height: calc(22vh * $factorH) !important;
+                background-color: #bdbdbd;
+                @include networkBox;
+
+                img {
+                  width: calc(14vh * $factorH);
+                  height: calc(14vh * $factorH);
+                }
+              }
+            }
+            .text-box {
+              width: calc(246vw * $factorW);
+
+              .text-area {
+                width: calc(246vw * $factorW);
+                .top-row {
+                  .text-key {
+                    font-size: calc(11rem / 16);
+                    line-height: calc(23vh * $factorH);
+                    color: #828282;
+                  }
+                  .text-value {
+                    font-size: calc(11rem / 16);
+                    line-height: calc(23vh * $factorH);
+                    color: #828282;
+                  }
+                }
+                .bottom-row {
+                  font-size: calc(13rem / 16);
+                  line-height: calc(18vh * $factorH);
+                  color: #828282;
+                }
+              }
+            }
+          }
+
+          .active {
+            border-radius: calc(25rem / 16);
+
+            .network-img {
+              width: calc(50vw * $factorW);
+
+              .network-box {
+                width: calc(22vh * $factorH);
+                height: calc(22vh * $factorH);
+                background-color: #156ba8;
+
+                img {
+                  width: calc(14vh * $factorH);
+                  height: calc(14vh * $factorH);
+                }
+              }
+            }
+            .text-box {
+              width: calc(246vw * $factorW);
+
+              .text-area {
+                width: calc(246vw * $factorW);
+                .top-row {
+                  .text-key {
+                    font-size: calc(11rem / 16);
+                    line-height: calc(23vh * $factorH);
+                    color: #45464f;
+                  }
+                  .text-value {
+                    font-size: calc(11rem / 16);
+                    line-height: calc(23vh * $factorH);
+                    color: #45464f;
+                  }
+                }
+                .bottom-row {
+                  font-size: calc(13rem / 16);
+                  line-height: calc(18vh * $factorH);
+                  color: #212121;
+                }
+              }
+            }
+          }
+        }
+
+        .bottom-box {
+          .bottom-row-1 {
+            margin-bottom: calc(25vh * $factorH);
+
+            img {
+              width: calc(46vh * $factorH);
+              height: calc(46vh * $factorH);
+            }
+          }
+
+          .bottom-row-2 {
+            .btn-box {
+              img {
+                width: calc(46vh * $factorH);
+                height: calc(46vh * $factorH);
+                margin-right: calc(11vw * $factorW);
+              }
+
+              button {
+                font-size: calc(18rem / 16);
+              }
+
+              .btn-1 {
+                width: calc(146vw * $factorW);
+                height: calc(36vh * $factorH);
+                border-radius: calc(18rem / 16);
+              }
+
+              .btn-2 {
+                width: calc(104vw * $factorW);
+                height: calc(36vh * $factorH);
+                border-radius: 0px calc(18rem / 16) calc(18rem / 16) 0px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 410px) {
+  .notification-page {
+    .row {
+      height: auto;
+      padding-top: 34px !important;
+      padding-bottom: 34px !important;
+      overflow-y: auto !important;
+      margin: 0 !important;
+      justify-content: center;
+      align-items: center;
+
+      .content-box {
+        width: 300px !important;
+
+        .main-content {
+          width: 300px !important;
+          height: auto;
+          .product-card {
+            width: 300px !important;
+            height: 96px;
+            margin-bottom: 12px;
+            background:#ffffff;
+
+            .network-img {
+              width: 45px;
+            }
+            .text-box {
+              width: 232px;
+            }
+          }
+
+          .active {
+            background:var(--backBg-color);
+
+            .network-img {
+              width: 45px;
+            }
+            .text-box {
+              width: 232px;
+
+              .text-area {
+                width: 246px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width:1367px){
+  .notification-page {
+    display: none;
+  }
+}

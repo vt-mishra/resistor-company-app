@@ -1,0 +1,19 @@
+{
+    "htr_desktop_replacement_datasheet_version": {
+        "data_version": "6"
+    },
+    "htrreplacement_dt": 1,
+    "htrprodls1_dt": 1,
+    "htrprodls1_dt-counter": 1,
+    "htrreplacement_dt-1": 1,
+    "htr_desktop_product_datasheet_version": {
+        "data_version": "6"
+    },
+    "htrreplacement_dt-counter": 1,
+    "htrdistributors_dt": 1,
+    "htr_desktop_distributor_datasheet_version": {
+        "data_version": "5"
+    },
+    "htrdistributors_dt-counter": 1,
+    "htr_app_version": 1
+}

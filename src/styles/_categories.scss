@@ -1,0 +1,293 @@
+@import "_custom.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.categories-page {
+  height: 100%;
+  .top-container,
+  .bottom-container {
+    min-height: 55px;
+    height: calc((100vh - 591px) / 2);
+  }
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+    width: 100%;
+    .col,
+    .col-auto {
+      padding: 0;
+    }
+    .Col-1 {
+      min-width: 85px;
+    }
+
+    .head-box {
+      display: flex;
+
+      .back-box {
+        width: 78px;
+        height: 44.03px;
+        background-color: var(--backBg-color);
+        border-radius: 0 8px 8px 0;
+
+        img {
+          margin: auto;
+          display: grid;
+          place-items: center;
+          margin-top: 11px;
+        }
+      }
+
+      .heading-box {
+        width: 305px;
+        height: 40px;
+        margin-top: 179px;
+
+        h2 {
+          @include headFont;
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .content-box {
+      height: 591px;
+      width: 929.81px;
+      .row-B1 {
+        .head-text {
+          @include headFont;
+          line-height: 40px;
+        }
+
+        margin-bottom: 65px;
+      }
+
+      .item-box {
+        width: 929.81px;
+        height: 486px;
+        .item-card {
+          width: 445.81px;
+          height: 66px;
+          background: var(--tab-color);
+          border-radius: 110px;
+          padding: 18px 33.27px 18px 32px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 39px;
+
+          img {
+            width: 13px;
+            height: 21px;
+          }
+
+          label {
+            @include labelFont;
+            color:var(--text-color);
+          }
+        }
+
+        .active {
+          background: #156ba8;
+          color: #ffffff;
+
+          label {
+            @include labelFont;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  overflow: auto;
+}
+
+@media (max-width: 1365px) {
+  .categories-page {
+    .top-container,
+    .bottom-container {
+      display: none;
+    }
+    .row {
+      flex-wrap: wrap;
+      width: 100%;
+      padding-top: 34px !important;
+      height: calc(100vh - 133px);
+      overflow-y: auto !important;
+     
+      .Col-1 {
+        min-width: 10px;
+      }
+      .head-box {
+        .back-box {
+          display: none;
+        }
+      }
+      .content-box {
+        height: auto;
+        width: 335px;
+        margin-bottom: 0px;
+        .row-B1 {
+          display: none;
+        }
+        .item-box {
+          width: 335px;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 0px;
+
+          .d-flex {
+            justify-content: center;
+            flex-flow: column;
+            .item-card {
+              width: 335px;
+              height: 53px;
+              margin-bottom: 22px;
+
+              img {
+                width: 9px;
+                height: 16px;
+              }
+              label {
+                @include textFont;
+              }
+            }
+            .active {
+              background: #156ba8;
+
+              label {
+                @include textFont;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .categories-page {
+    .top-container,
+    .bottom-container {
+      display: none;
+    }
+    .row {
+      margin: 0 !important;
+
+      .content-box {
+        @include sizes;
+
+        .item-box {
+          @include sizes;
+
+          .d-flex {
+            .item-card {
+              width: 305px;
+              height: 53px;
+              background-color: var(--tab-color);
+              border-radius: 110px;
+              margin-bottom: 22px;
+
+              img {
+                width: 7px;
+                height: 14px;
+              }
+              label {
+                @include labelText;
+                color: var(--text-color);
+              }
+            }
+            .active {
+              background: #156ba8;
+              color: #ffffff !important;
+
+              label {
+                @include labelText;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+    overflow: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1365px) {
+  $factorH: 100/828;
+  $factorW: 100/411;
+
+  @mixin categorySize {
+    width: calc(335vw * $factorW);
+    height: auto;
+    margin-bottom: 0px;
+  }
+  @mixin categoryLabel {
+    font-weight: 500;
+    font-size: calc(18rem / 16);
+    line-height: 119.19%;
+    text-align: center;
+  }
+  .categories-page {
+    overflow: auto;
+    .top-container,
+    .bottom-container {
+      display: none;
+    }
+    .row {
+      margin: 0 !important;
+
+      .Col-1 {
+        min-width: calc(10vw * $factorW);
+      }
+
+      .content-box {
+        @include categorySize;
+
+        .item-box {
+          @include categorySize;
+
+          .d-flex {
+            .item-card {
+              width: calc(335vw * $factorW);
+              height: calc(53vh * $factorH);
+              background-color: var(--tab-color);
+              border-radius: calc(110rem / 16);
+              margin-bottom: calc(22vh * $factorH);
+
+              img {
+                width: calc(9vw * $factorW);
+                height: calc(16vh * $factorH);
+              }
+              label {
+                @include categoryLabel;
+                color: var(--text-color);
+              }
+            }
+            .active {
+              background: #156ba8;
+              color: #ffffff !important;
+
+              label {
+                @include categoryLabel;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

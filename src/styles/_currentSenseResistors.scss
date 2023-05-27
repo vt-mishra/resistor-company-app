@@ -1,0 +1,665 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.current-Sense-Resistors-page {
+  height: 100%;
+  .top-container {
+    min-height: 55px;
+    height: calc((100vh - 725px) / 2);
+  }
+  .row {
+    margin: 0 0 auto 0 !important;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: auto !important;
+    width: 100%;
+    height: 700px !important;
+    .col,
+    .col-auto {
+      padding: 0;
+    }
+    .Col-1 {
+      min-width: 85px;
+    }
+    .head-box {
+      display: flex;
+      .back-box {
+        width: 78px;
+        height: 44.03px;
+        background-color:var(--backBg-color);
+        border-radius: 0 8px 8px 0;
+
+        img {
+          margin: auto;
+          display: grid;
+          place-items: center;
+          margin-top: 11px;
+        }
+      }
+
+      .heading-box {
+        width: 305px;
+        height: 40px;
+        margin-top: 179px;
+        h2 {
+          font-weight: 400;
+          font-size: 40px;
+          color: #156ba8;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .content-box {
+      width: 798px;
+      .row-B1 {
+        .head-text {
+          font-weight: 400 !important;
+          font-size: 40px !important;
+          line-height: 40px;
+          color: var(--text-color);
+        }
+        margin-bottom: 77px;
+      }
+      .top-cards {
+        height: 280px;
+        margin-bottom: 48px;
+        .cards {
+          width: 234px;
+          height: 280px;
+          border: 1px solid #bdbdbd;
+          border-radius: 1rem;
+          box-shadow: 0px 4px 7px #d9ebff;
+
+          .resistor1 {
+            width: 182.69px;
+            height: 113.07px;
+            margin-top: 26.93px;
+            margin-left: 16.81px;
+            margin-right: 34.5px;
+            margin-bottom: 12.25px;
+          }
+          .resistor2 {
+            width: 167.63px;
+            height: 103.54px;
+            margin-top: 24px;
+            margin-left: 39px;
+            margin-right: 27.37px;
+            margin-bottom: 24.71px;
+          }
+          .resistor3 {
+            width: 131.7px;
+            height: 105.69px;
+            margin-top: 34.61px;
+            margin-left: 55.3px;
+            margin-right: 47px;
+            margin-bottom: 11.95;
+          }
+          .resistor4 {
+            width: 118px;
+            height: 105px;
+            margin-top: 31px;
+            margin-left: 53px;
+            margin-right: 63px;
+            margin-bottom: 16.25;
+          }
+          .card-bottom {
+            width: 233px;
+            height: 102px;
+            background-color: #156ba8;
+            border-radius: 0px 0px 14px 14px;
+
+            .card-image {
+              .pdfImage {
+                width: 32.22px;
+                height: 44.41px;
+                margin-top: 31px;
+                margin-right: 17.78px;
+                margin-left: 53px;
+                margin-bottom: 26.59px;
+              }
+            }
+
+            .card-text {
+              width: 114px;
+              height: 69px;
+              margin-top: 16px;
+              margin-left: 16px;
+              margin-bottom: 17px;
+
+              p {
+                padding: 0;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+            .bottom-card-text {
+              width: 114px;
+              height: 69px;
+              margin-top: 16px;
+              margin-left: 16px;
+              margin-bottom: 17px;
+
+              p {
+                padding: 0;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+          }
+          h4 {
+            padding: 0;
+            margin-left: 17px;
+            font-weight: 500;
+            font-size: 18px;
+            color: #156ba8;
+          }
+        }
+
+        .card-space {
+          margin-right: 48px;
+        }
+      }
+      .bottom-cards {
+        height: 280px;
+        .cards {
+          width: 234px;
+          height: 280px;
+          border: 1px solid #bdbdbd;
+          border-radius: 1rem;
+          box-shadow: 0px 4px 7px #d9ebff;
+
+          .resistor3 {
+            width: 131.7px;
+            height: 105.69px;
+            margin-top: 34.61px;
+            margin-left: 55.3px;
+            margin-right: 47px;
+            margin-bottom: 11.95px;
+          }
+          .resistor4 {
+            width: 118px;
+            height: 105px;
+            margin-top: 31px;
+            margin-left: 53px;
+            margin-right: 63px;
+            margin-bottom: 16.25px;
+          }
+          .card-bottom {
+            width: 233px;
+            height: 102px;
+            background-color: #156ba8;
+            border-radius: 0px 0px 14px 14px;
+
+            .card-image {
+              .pdfImage {
+                width: 32.22px;
+                height: 44.41px;
+                margin-top: 31px;
+                margin-right: 17.78px;
+                margin-left: 53px;
+                margin-bottom: 26.59px;
+              }
+            }
+
+            .card-text {
+              width: 114px;
+              height: 69px;
+              margin-top: 16px;
+              margin-left: 16px;
+              margin-bottom: 17px;
+
+              p {
+                padding: 0;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+            .bottom-card-text {
+              width: 114px;
+              height: 69px;
+              margin-top: 16px;
+              margin-left: 16px;
+              margin-bottom: 17px;
+
+              p {
+                padding: 0;
+                margin: 0;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+          }
+          h4 {
+            padding: 0;
+            margin-left: 17px;
+            font-weight: 500;
+            font-size: 18px;
+            color: #156ba8;
+          }
+        }
+        .card-space {
+          margin-right: 48px;
+        }
+      }
+      .card-box {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        .cards {
+          width: 234px;
+          height: 280px;
+          border: 1px solid #bdbdbd;
+          border-radius: 16px;
+          box-shadow: 0px 4px 7px #d9ebff;
+          margin-bottom: 21px;
+
+          .resistor1 {
+            width: 182.69px;
+            height: 113.07px;
+            margin: 25px 10.25px 15.51px 16.81px;
+          }
+          .resistor2 {
+            width: 167.63px;
+            height: 113.07px;
+            margin: 20px 9.14px 20px 39px;
+          }
+          .resistor3 {
+            width: 131.7px;
+            height: 102px;
+            margin: 31px 36px 15px 55.3px;
+          }
+          .resistor4 {
+            width: 118px;
+            height: 105px;
+            margin: 32px 40px 12px 53px;
+          }
+          .card-bottom {
+            display: flex;
+            width: 234px;
+            height: 102px;
+            margin: 0 !important;
+            background-color: #156ba8;
+            border-radius: 0px 0px 14px 14px;
+
+            .card-image {
+              .pdfImage {
+                width: 32.22px;
+                height: 44.41px;
+                margin: 32px 24px 26.59px 53px;
+              }
+            }
+
+            .card-text {
+              width: 114px;
+              height: 69px;
+              margin: 16px 0 9px 16px;
+              p {
+                padding: 0;
+                margin: 0;
+                height: 63px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+            .bottom-card-text {
+              width: 114px;
+              height: 69px;
+              margin-top: 16px;
+              margin-left: 16px;
+              margin-bottom: 17px;
+
+              p {
+                padding: 0;
+                margin: 0;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+          }
+
+          h4 {
+            padding: 0;
+            margin-left: 16px;
+            font-weight: 500;
+            font-size: 18px;
+            color: var(--text-color);
+          }
+        }
+        .card-space {
+          margin-right: 21px;
+        }
+      }
+    }
+  }
+}
+@media  (max-width: 1365px)  {
+  .current-Sense-Resistors-page {
+    .top-container {
+      display: none !important;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 0px;
+      padding-top: 34px !important;
+      width: 100%;
+      height:auto !important;
+      overflow-y: auto;
+      .col,
+      .col-auto {
+        padding: 0;
+      }
+      .Col-1 {
+        min-width: 10px;
+      }
+      .head-box {
+        display: none;
+      }
+      .content-box {
+        margin-bottom: 0;
+        width: 338px;
+        .row-B1 {
+          display: none;
+        }
+        .top-cards {
+          display: none !important;
+        }
+        .bottom-cards {
+          display: none !important;
+        }
+        .card-box {
+          display: grid !important;
+          grid-template-columns: repeat(2, 1fr);
+          .cards {
+            width: 158px;
+            height: 235px;
+            border: 1px solid #bdbdbd;
+            border-radius: 16px;
+            box-shadow: 0px 4px 7px var(--box-shadow);
+            margin-bottom: 21px;
+
+            .resistor1 {
+              width: 139.75px;
+              height: 86.49px;
+              margin: 25px 10.25px 15.51px 10px;
+            }
+            .resistor2 {
+              width: 140.86px;
+              height: 87px;
+              margin: 20px 9.14px 20px 10px;
+            }
+            .resistor3 {
+              width: 91px;
+              height: 73.02px;
+              margin: 31px 36px 22.98px 33px;
+            }
+            .resistor4 {
+              width: 82px;
+              height: 73px;
+              margin: 32px 40px 22px 38px;
+            }
+            .card-bottom {
+              display: flex;
+              width: 158px;
+              height: 81px;
+              margin: 0 !important;
+              background-color: #156ba8;
+              border-radius: 0px 0px 14px 14px;
+
+              .card-image {
+                .pdfImage {
+                  width: 19px;
+                  height: 26.19px;
+                  margin: 32px 24px 22.81px 23px;
+                }
+              }
+
+              .card-text {
+                width: 77px;
+                height: 63px;
+                margin: 9px 0 9px 15px;
+                p {
+                  padding: 0;
+                  margin: 0;
+                  height: 63px;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                  color: #ffffff;
+                }
+              }
+              .bottom-card-text {
+                width: 114px;
+                height: 69px;
+                margin-top: 16px;
+                margin-left: 16px;
+                margin-bottom: 17px;
+
+                p {
+                  padding: 0;
+                  margin: 0;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                  color: #ffffff;
+                }
+              }
+            }
+
+            h4 {
+              padding: 0;
+              margin-left: 16px;
+              font-weight: 500;
+              font-size: 18px;
+              color: var(--text-color);
+            }
+          }
+          .card-space {
+            margin-right: 21px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 410px) {
+  .current-Sense-Resistors-page {
+    .row {
+      align-items: center;
+      margin: 0 !important;
+
+      .content-box {
+        height: auto;
+        width: 293px !important;
+
+        .card-box {
+          width: 290px;
+          grid-template-columns: repeat(2, 1fr);
+          .cards {
+            width: 138px !important;
+            .resistor1 {
+              width: 120px;
+            }
+            .resistor2 {
+              width: 120px;
+            }
+            .card-bottom {
+              width: 138px !important;
+
+              .card-image {
+                width: 19px;
+                .pdfImage {
+                  margin: 32px 14px 22.81px 13px;
+                }
+              }
+
+              .card-text {
+                width: 77px;
+                height: 63px;
+                margin: 9px 0 9px 15px;
+                p {
+                  padding: 0;
+                  margin: 0;
+                  width: 77px;
+                  height: 63px;
+                  font-weight: 400;
+                  font-size: 12px !important;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                  color: #ffffff;
+                }
+              }
+              .bottom-card-text {
+                width: 114px;
+                height: 69px;
+                margin-top: 16px;
+                margin-left: 16px;
+                margin-bottom: 17px;
+
+                p {
+                  padding: 0;
+                  margin: 0;
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+          .card-space {
+            margin-right: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width:1365px) {
+  $factorH: 100/828;
+  $factorW: 100/411;
+
+  .current-Sense-Resistors-page {
+    .row {
+      padding-top: calc(34vh * $factorH) !important;
+      height: calc(100vh - calc(167.41vh * $factorH));
+
+      .Col-1 {
+        min-width: calc(10vw * $factorW);
+      }
+
+      .content-box {
+        width: calc(338vw * $factorW);
+
+        .card-box {
+          .cards {
+            width: calc(158vw * $factorW);
+            height: calc(235vh * $factorH);
+            border-radius: calc(16rem / 16);
+            margin-bottom: calc(21vh * $factorH);
+
+            .resistor1 {
+              width: calc(139.75vw * $factorW);
+              height: calc(86.49vh * $factorH);
+              margin: calc(25vh * $factorH) calc(10.25vw * $factorW)
+                calc(15.51vh * $factorH) calc(10vw * $factorW);
+            }
+            .resistor2 {
+              width: calc(140.86vw * $factorW);
+              height: calc(87vh * $factorH);
+              margin: calc(20vh * $factorH) calc(9.14vw * $factorW)
+                calc(20vh * $factorH) calc(10vw * $factorW);
+            }
+            .resistor3 {
+              width: calc(91vw * $factorW);
+              height: calc(73.02vh * $factorH);
+              margin: calc(31vh * $factorH) calc(36vw * $factorW)
+                calc(22.98vh * $factorH) calc(33vw * $factorW);
+            }
+            .resistor4 {
+              width: calc(82vw * $factorW);
+              height: calc(73vh * $factorH);
+              margin: calc(32vh * $factorH) calc(40vw * $factorW)
+                calc(22vh * $factorH) calc(38vw * $factorW);
+            }
+            .card-bottom {
+              justify-content: space-between;
+              width: calc(158vw * $factorW);
+              height: calc(88vh * $factorH);
+              border-radius: 0 0 calc(14rem / 16) calc(14rem / 16);
+
+              .card-image {
+                .pdfImage {
+                  width: calc(19vw * $factorW);
+                  height: calc(26.19vh * $factorH);
+                  margin-top: calc(32vh * $factorH);
+                  margin-right: calc(22vw * $factorW);
+                  margin-bottom: calc(22.81vh * $factorH);
+                  margin-left: calc(23vw * $factorW);
+                }
+              }
+
+              .card-text {
+                margin-top: calc(9vh * $factorH);
+                margin-right: 0;
+                margin-bottom: calc(9vh * $factorH);
+                margin-left: calc(15vh * $factorW);
+                p {
+                  height: calc(63vh * $factorH);
+                  font-size: calc(12rem / 16);
+                  line-height: calc(16vh * $factorH);
+                }
+              }
+              .bottom-card-text {
+                width: calc(114vw * $factorW);
+                height: calc(69vh * $factorH);
+                margin-top: calc(16vh * $factorH);
+                margin-left: calc(16vw * $factorW);
+                margin-bottom: calc(17vh * $factorH);
+
+                p {
+                  font-size: calc(12rem / 16);
+                  line-height: calc(16vh * $factorH);
+                }
+              }
+            }
+            h4 {
+              margin-left: calc(16vw * $factorW);
+              font-size: calc(18rem / 16);
+            }
+          }
+          .card-space {
+            margin-right: calc(21vw * $factorW);
+          }
+        }
+      }
+    }
+  }
+}

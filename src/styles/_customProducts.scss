@@ -1,0 +1,529 @@
+* {
+  font-family: "Roboto";
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+.custom-products-page {
+  height: 100%;
+  .top-container {
+    min-height: 55px;
+    height: calc((100vh - 725px) / 2);
+  }
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    .col,
+    .col-auto {
+      padding: 0;
+    }
+    .Col-1 {
+      min-width: 85px;
+    }
+    .head-box {
+      display: flex;
+      .back-box {
+        width: 78px;
+        height: 44.03px;
+        background-color:var(--backBg-color);
+        border-radius: 0 8px 8px 0;
+
+        img {
+          margin: auto;
+          display: grid;
+          place-items: center;
+          margin-top: 11px;
+        }
+      }
+
+      .heading-box {
+        width: 305px;
+        height: 40px;
+        margin-top: 179px;
+        h2 {
+          font-weight: 400;
+          font-size: 40px;
+          color: #156ba8;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .content-box {
+      width: 858px;
+      .row-B1 {
+        .head-text {
+          font-weight: 400 !important;
+          font-size: 40px !important;
+          line-height: 40px;
+          color:var(--text-color);
+        }
+        margin-bottom: 79px;
+      }
+      .top-cards {
+        height: 280px;
+        margin-bottom: 46px;
+        .cards {
+          width: 254px;
+          height: 280px;
+          border: 1px solid #bdbdbd;
+          border-radius: 1rem;
+          box-shadow: 0px 4px 7px #d9ebff;
+
+          .img-box {
+            height: 190px;
+            .device1 {
+              width: 179.32px;
+              height: 105px;
+              margin-top: 46.03px;
+              margin-left: 41px;
+              margin-right: 33.68px;
+              margin-bottom: 33.97px;
+            }
+          }
+
+          .card-bottom {
+            width: 254px;
+            height: 90px;
+            background-color: #156ba8;
+            border-radius: 0px 0px 14px 14px;
+            padding: 13px 14px 18px 15px;
+            .card-text {
+              p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 22px;
+                letter-spacing: 0.1px;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+
+        .card-space {
+          margin-right: 48px;
+        }
+      }
+      .bottom-cards {
+        height: 280px;
+      }
+      .card-box {
+        display: none;
+      }
+      .cards {
+        width: 254px;
+        height: 280px;
+        border: 1px solid #bdbdbd;
+        border-radius: 1rem;
+        box-shadow: 0px 4px 7px #d9ebff;
+
+        .img-box {
+          height: 190px;
+          .device1 {
+            width: 179.32px;
+            height: 105px;
+            margin-top: 46.03px;
+            margin-left: 41px;
+            margin-right: 33.68px;
+            margin-bottom: 33.97px;
+          }
+          .device2 {
+            width: 173.76px;
+            height: 115px;
+            margin-top: 34.52px;
+            margin-left: 42px;
+            margin-right: 38.24px;
+            margin-bottom: 39.48px;
+          }
+          .device3 {
+            width: 180.42px;
+            height: 115px;
+            margin-top: 33.24px;
+            margin-left: 41px;
+            margin-right: 32.58px;
+            margin-bottom: 40.76px;
+          }
+          .device4 {
+            width: 162.82px;
+            height: 121px;
+            margin-top: 35px;
+            margin-left: 47px;
+            margin-right: 44.18px;
+            margin-bottom: 33px;
+          }
+          .device5 {
+            width: 120px;
+            height: 122.74px;
+            margin-top: 37px;
+            margin-left: 67px;
+            margin-right: 67px;
+            margin-bottom: 29.26px;
+          }
+          .device6 {
+            width: 125px;
+            height: 127.85px;
+            margin-top: 28px;
+            margin-left: 64px;
+            margin-right: 65px;
+            margin-bottom: 33.15px;
+          }
+        }
+
+        .card-bottom {
+          width: 254px;
+          height: 90px;
+          background-color: #156ba8;
+          border-radius: 0px 0px 14px 14px;
+          padding: 13px 14px 18px 15px;
+          .card-text {
+            p {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 22px;
+              letter-spacing: 0.1px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .card-space {
+        margin-right: 48px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1365px) {
+  .custom-products-page {
+    .top-container {
+      display: none;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-top: 34px;
+      width: 100%;
+      height: calc(100vh - 133.41px);
+      overflow-y: auto;
+      .col,
+      .col-auto {
+        padding: 0;
+      }
+      .Col-1 {
+        min-width: 10px;
+      }
+      .head-box {
+        .back-box {
+          display: none;
+        }
+      }
+      .content-box {
+        height: auto;
+        width: 341px;
+        margin-bottom: 0px;
+        .row-B1 {
+          display: none;
+        }
+        .top-cards {
+          display: none !important;
+          flex-wrap: wrap;
+          width: 332px;
+          justify-content: space-between;
+          height: 0px;
+          margin-bottom: 241px;
+          .cards {
+            width: 160px;
+            height: 219px;
+            border: 1px solid #bdbdbd;
+            border-radius: 1rem;
+            box-shadow: 0px 4px 7px #d9ebff;
+
+            .img-box {
+              height: 148px;
+
+              .device1 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+            }
+            .card-bottom {
+              width: 158px;
+              height: 70px;
+              background: #156ba8;
+              border-radius: 0px 0px 15px 14px;
+              padding: 10px 15px 14px 15px;
+
+              .card-text {
+                p {
+                  font-weight: 400;
+                  font-size: 13px;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+          .card-space {
+            margin-right: 21px;
+          }
+        }
+        .bottom-cards {
+          display: none !important;
+          width: 312px;
+          margin-left: 172px;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .card-box {
+          display: block;
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          .cards {
+            width: 160px;
+            height: 219px;
+            border: 1px solid #bdbdbd;
+            border-radius: 1rem;
+            box-shadow: 0px 4px 7px #d9ebff;
+
+            .img-box {
+              height: 148px;
+              .device1 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+
+              .device2 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+              .device3 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+              .device4 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+              .device5 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+              .device6 {
+                width: 138px;
+                height: 79px;
+                margin: 36px 12px 33px 10px;
+              }
+            }
+            .card-bottom {
+              width: 159px;
+              height: 80px;
+              background-color: #156ba8;
+              border-radius: 0px 0px 14px 14px;
+              padding: 10px 15px 14px 15px;
+
+              .card-text {
+                p {
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  letter-spacing: 0.1px;
+                  color: #ffffff;
+                }
+              }
+            }
+          }
+          .card-space {
+            margin-bottom: 21px;
+            margin-right: 21px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  .custom-products-page {
+    .row .Col-1 {
+      min-width: 0px !important;
+    }
+    .col-auto {
+      .content-box .card-box .card-space {
+        margin-bottom: 21px;
+        margin-right: 20px !important;
+      }
+    }
+  }
+  .card-box .cards {
+    width: 138px !important;
+    height: 219px;
+    border: 1px solid #bdbdbd;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 7px #d9ebff;
+
+    .img-box {
+      .device1 {
+        width: 125px !important;
+      }
+      .device2 {
+        width: 125px !important;
+      }
+      .device3 {
+        width: 125px !important;
+      }
+      .device4 {
+        width: 125px !important;
+      }
+      .device5 {
+        width: 125px !important;
+      }
+      .device6 {
+        width: 125px !important;
+      }
+    }
+    .card-bottom {
+      width: 136.4px !important;
+      .card-text p {
+        font-size: 13px !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width:1365px) {
+  $factorH: 100/828;
+  $factorW: 100/411;
+
+  .custom-products-page {
+    .row {
+      padding-top: calc(34vh * $factorH);
+      height: calc(100vh - calc(133.41vh * $factorH));
+
+      .Col-1 {
+        min-width: calc(10vw * $factorW);
+      }
+
+      .content-box {
+        width: calc(341vw * $factorW);
+
+        .top-cards {
+          width: calc(332vw * $factorW);
+          margin-bottom: calc(241vh * $factorH);
+          .cards {
+            width: calc(160vw * $factorW);
+            height: calc(219vh * $factorH);
+
+            .img-box {
+              height: calc(148vh * $factorH);
+
+              .device1 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+            }
+            .card-bottom {
+              width: calc(158vw * $factorW);
+              height: calc(70vh * $factorH);
+              border-radius: 0 0 calc(15vh * $factorH) calc(14vw * $factorW);
+              padding: calc(10vh * $factorH) calc(15vw * $factorW)
+                calc(14vh * $factorH) calc(15vw * $factorW);
+
+              .card-text {
+                p {
+                  font-size: calc(13rem / 16);
+                  line-height: calc(16vh * $factorH);
+                }
+              }
+            }
+          }
+          .card-space {
+            margin-right: calc(21vw * $factorW);
+          }
+        }
+        .bottom-cards {
+          width: calc(312vw * $factorW);
+          margin-left: calc(172vw * $factorW);
+        }
+        .card-box {
+          .cards {
+            width: calc(160vw * $factorW);
+            height: calc(219vh * $factorH);
+
+            .img-box {
+              height: calc(148vh * $factorH);
+              .device1 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+
+              .device2 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+              .device3 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+              .device4 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+              .device5 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+              .device6 {
+                width: calc(138vw * $factorW);
+                height: calc(79vh * $factorH);
+                margin: calc(36vh * $factorH) calc(12vw * $factorW)
+                  calc(33vh * $factorH) calc(10vw * $factorW);
+              }
+            }
+            .card-bottom {
+              display: flex;
+              width: calc(160vw * $factorW);
+              height: calc(80vh * $factorH);
+              background-color: #156ba8;
+              border-radius: 0 0 calc(14vh * $factorH) calc(8vw * $factorW);
+              padding: calc(10vh * $factorH) calc(15vw * $factorW)
+                calc(14vh * $factorH) calc(15vw * $factorW);
+
+              .card-text {
+                p {
+                  font-weight: 400;
+                  font-size: calc(12rem / 16);
+                  line-height: calc(16vh * $factorH);
+                }
+              }
+            }
+          }
+          .card-space {
+            margin-bottom: calc(21vh * $factorH);
+            margin-right: calc(21vw * $factorW) !important;
+          }
+        }
+      }
+    }
+  }
+}

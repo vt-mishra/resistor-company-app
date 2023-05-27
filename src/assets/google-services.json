@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "437371877002",
+    "project_id": "htrgraphjcs",
+    "storage_bucket": "htrgraphjcs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437371877002:android:c034a18bfe33b6a77c1f73",
+        "android_client_info": {
+          "package_name": "com.HtrApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437371877002-d19s0c1oiorvmblkqvpjm8ap8ob0lmj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCypJJrO_djAUPEOquIpWqRdKTH-gAhtcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437371877002-d19s0c1oiorvmblkqvpjm8ap8ob0lmj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
